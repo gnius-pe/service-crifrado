@@ -1,7 +1,7 @@
 import express from "express";
 import morgan from "morgan";
 import escitala from "./routes/escitala.routes.js";
-import polybius from "./routes/polybius.routes.js";
+import polybius from "./routes/Polybius.routes.js";
 import { swagggerJSDocs } from "./libs/swagger.js";
 
 
