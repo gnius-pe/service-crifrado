@@ -1,11 +1,11 @@
 import { Router } from "express";
-import {crifradoByPolbuis} from "../controllers/polvios.controllers.js"
+import {crifradoByPolbuis} from "../controllers/polybius.controllers.js";
 
 const router = Router();
 
 /**
  * @swagger
- * /api/polvios:
+ * /api/polybius:
  *  get:
  *      summary: obtienes el mensaje encriptado
  *      tags:
@@ -20,6 +20,6 @@ const router = Router();
  *          200:
  *              description: el mesaje se ecripto correctamente
  */
-router.get('/polvios',crifradoByPolbuis);
+router.get('/polybius',crifradoByPolbuis);
 
 export default router;

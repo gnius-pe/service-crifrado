@@ -29,7 +29,8 @@ function apuntaLetra (letra){
   return fila + "" + columna; 
 }
   
+
 export const decryptPolybius = (cipherText) => {
-    
+  // escribelo :U    
   
 }

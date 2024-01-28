@@ -24,3 +24,12 @@ export const escitalaCrifrar = (menssaje, diametro, longitud) =>{
   }
   return messageCifrado;
 }
+
+export const escitalaDecifrado = () => {
+  // escribelo :u
+
+
+
+  
+  return "escitla decifrado"
+}
